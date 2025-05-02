@@ -25,7 +25,7 @@ This project extracts color palettes from images, providing a set of dominant an
 
 1. Place your input images in the `input` folder.
 2. Run the script `main.py`.
-3. Translated images will be saved in the `output` folder.
+3. Generated files will be saved in the `output` folder.
 
 ## Notes
 For each image in input/, the following will be created in output/<image-name>/:
@@ -35,10 +35,15 @@ For each image in input/, the following will be created in output/<image-name>/:
 
 ## Examples
 
-## Input
+### Input
 ![input_example](https://github.com/user-attachments/assets/2905ce45-2e57-4659-8fab-6002140bce9b)
 
-## JSON Format Example
+### Output
+#### Visual Swatch Example
+![palette](https://github.com/user-attachments/assets/4c32c4dc-a1e1-409f-ac60-189c403e6b4a)
+
+
+#### JSON Format Example
 ```json
 {
   "dominant_color": {
@@ -78,7 +83,7 @@ For each image in input/, the following will be created in output/<image-name>/:
 }
 ```
 
-## CSS Format Example
+#### CSS Format Example
 
 ```css
 --color1: #df8d22;
